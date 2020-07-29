@@ -2,6 +2,7 @@ import 'package:Task1/carousel.dart';
 import 'package:Task1/components/icon_horizontal.dart';
 import 'package:Task1/components/my_bottom.dart';
 import 'package:Task1/components/product.dart';
+import 'package:Task1/components/slide.dart';
 import 'package:Task1/pages/keranjang.dart';
 import 'package:flutter/material.dart';
 
@@ -228,66 +229,9 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            // Container(
-            //   height: 200,
-            //   child: PageView(
-            //     controller: PageController(viewportFraction: 0.8),
-            //     scrollDirection: Axis.horizontal,
-            //     children: <Widget>[
-            //       Container(
-            //         margin: EdgeInsets.symmetric(horizontal: 8),
-            //         color: Colors.blue,
-            //         width: 100,
-            //       ),
-            //       Container(
-            //         margin: EdgeInsets.symmetric(horizontal: 8),
-            //         color: Colors.red,
-            //         width: 100,
-            //       ),
-            //       Container(
-            //         margin: EdgeInsets.symmetric(horizontal: 8),
-            //         color: Colors.green,
-            //         width: 100,
-            //       ),
-            //     ],
-            //   ),
-            // ),
-            // Container(
-            //   height: MediaQuery.of(context).size.height / 4,
-            //   child: ListView(
-            //     controller: PageController(viewportFraction: 0.8),
-            //     scrollDirection: Axis.horizontal,
-            //     children: <Widget>[
-            //       Padding(
-            //         padding: const EdgeInsets.symmetric(horizontal: 1.0),
-            //         child: Container(
-            //           decoration: BoxDecoration(
-            //             borderRadius: BorderRadius.circular(16),
-            //             color: Colors.blue,
-            //           ),
-            //           width: MediaQuery.of(context).size.width / 2 * 2,
-            //         ),
-            //       ),
-            //       Container(
-            //         decoration: BoxDecoration(
-            //           borderRadius: BorderRadius.circular(16),
-            //           color: Colors.red,
-            //         ),
-            //         width: MediaQuery.of(context).size.width / 1,
-            //       ),
-            //       Container(
-            //         decoration: BoxDecoration(
-            //           borderRadius: BorderRadius.circular(16),
-            //           color: Colors.green,
-            //         ),
-            //         width: MediaQuery.of(context).size.width / 1,
-            //       ),
-            //     ],
-            //   ),
-            // ),
-            MySlider(),
+            MySlide(),
             HorizontalIcon(),
-            SizedBox(),
+            SizedBox(), 
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
