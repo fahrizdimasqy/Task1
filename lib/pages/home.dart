@@ -1,4 +1,3 @@
-import 'package:Task1/carousel.dart';
 import 'package:Task1/components/icon_horizontal.dart';
 import 'package:Task1/components/my_bottom.dart';
 import 'package:Task1/components/product.dart';
@@ -231,7 +230,7 @@ class _HomePageState extends State<HomePage> {
             ),
             MySlide(),
             HorizontalIcon(),
-            SizedBox(), 
+            SizedBox(),
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
