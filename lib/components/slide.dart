@@ -295,32 +295,6 @@ class _MySlideState extends State<MySlide> {
                   Divider(
                     color: Colors.white,
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Center(
-                        child: Icon(
-                          Icons.arrow_forward,
-                          size: 20,
-                          color: Colors.white,
-                        ),
-                      ),
-                      Center(
-                        child: Icon(
-                          Icons.arrow_forward,
-                          size: 20,
-                          color: Colors.white,
-                        ),
-                      ),
-                      Center(
-                        child: Icon(
-                          Icons.arrow_forward,
-                          size: 20,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ],
-                  )
                 ],
               ),
             ],
