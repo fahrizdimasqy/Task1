@@ -53,6 +53,7 @@ class _PemabayaranSuksesState extends State<PemabayaranSukses> {
                           flex: 1,
                           child: Image.asset(
                             'images/burger.jpeg',
+                            fit: BoxFit.cover,
                           ),
                         ),
                         Expanded(
@@ -140,6 +141,7 @@ class _PemabayaranSuksesState extends State<PemabayaranSukses> {
                           flex: 1,
                           child: Image.asset(
                             'images/burger.jpeg',
+                            fit: BoxFit.cover,
                           ),
                         ),
                         Expanded(
